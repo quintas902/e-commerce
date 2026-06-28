@@ -1,0 +1,39 @@
+# Core de Laravel
+/vendor/
+node_modules/
+public/storage
+public/hot
+storage/*.key
+.env
+.env.backup
+.env.production
+Homestead.json
+Homestead.yaml
+.phpunit.result.cache
+
+# Logs y Caché de Desarrollo
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/framework/cache/data/*
+!/storage/framework/cache/data/.gitignore
+
+# Herramientas de Sistemas y SO (macOS específico)
+.DS_Store
+Thumbs.db
+
+# Configuración de Editores de Código (Zed, Emacs y VS Code)
+.zed/
+.vscode/
+.idea/
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list/
+tramp
+.\#*
